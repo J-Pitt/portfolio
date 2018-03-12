@@ -2,17 +2,20 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Navbar from './Nav';
 import registerServiceWorker from './registerServiceWorker';
+import Favicon from 'react-favicon';
 
 const rootEl = document.getElementById('root');
  
 ReactDOM.render(
-    <App>
+    <div>
+        <favicon url = "http://oflisback.github.io/react-favicon/public/img/react.ico"/>
         <App />
-    </App>,
+        <Navbar />
+    </div>,
   rootEl
 );
-
 
 if (module.hot) {
     module.hot.accept('./App', () => {

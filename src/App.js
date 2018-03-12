@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import {AppContainer} from 'react-hot-loader';
 
@@ -12,10 +11,8 @@ class App extends Component {
           <h1 className="App-title">Welcome to my Portfolio Site</h1>
         </header>
         <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
+          AdTech professional with over 3 years industry experience. Helping publishers and content creators optimize their advertising stack, creating efficient hybrid (client-side/server-side) header bidding solutions 
         </p>
-        <h1> jason 
-        </h1>
       </div>
     );
   }
