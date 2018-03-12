@@ -49,8 +49,9 @@
     "whatwg-fetch": "2.0.3"
   },
   "scripts": {
+    "build-and-deploy": "npm run build && s3cmd sync build/* s3://bezos && echo `🚀  Deployed!`",
     "start": "node scripts/start.js",
-    "build": "node scripts/build.js",
+    "build": "node scripts/build.js", 
     "test": "node scripts/test.js --env=jsdom"
   },
   "jest": {
