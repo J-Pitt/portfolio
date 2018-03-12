@@ -7,18 +7,21 @@ import registerServiceWorker from './registerServiceWorker';
 import Favicon from 'react-favicon';
 import {AppContainer} from 'react-hot-loader';
 
+
+
 const rootEl = document.getElementById('root');
  
 ReactDOM.render(
-    <AppContainer>
+<AppContainer>
     <div>
         <Favicon url = "http://oflisback.github.io/react-favicon/public/img/react.ico"/>
         <App />
         <Navbar />
     </div>
-    </AppContainer>,
+</AppContainer>,
   rootEl
 );
+
 
 // Webpack Hot Module Replacement API
 //if (module.hot) {

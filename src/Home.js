@@ -4,16 +4,17 @@ class Home extends Component {
   render() {
     return (
       <div>
-        <h2>HELLOeifjccgtdjdkfdtgelgdnejcbeulcivbgfufburugefe
+        <h2>Work History
         </h2>
-        <p>Cras facilisis urna ornare ex volutpat, et
-        convallis erat elementum. Ut aliquam, ipsum vitae
-        gravida suscipit, metus dui bibendum est, eget rhoncus nibh
-        metus nec massa. Maecenas hendrerit laoreet augue
-        nec molestie. Cum sociis natoque penatibus et magnis
-        dis parturient montes, nascetur ridiculus mus.</p>
+        <p>My name is Jason and I have been working in the adops and adtech engineering industry for over three years. I got my 
+        start at sovrn holdings llc in their adops department, working with our account management and sales team to help publishers
+        create ad tags, align demand, and identify and remedy any ad serving issues. I then helped build out their support engineering 
+        team to provide support for prebid.js, along with other engineering related support. In addition to provide header bidding support, 
+        I also assited with DSP integrations, pixel tracking configuration, and container tag management.</p>
  
-        <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
+        <p>After that, I transitioned to a sales engineering role with Amazon Publisher Servies, within the A9 unit. Here, I have been 
+        primarily supporting both their Transparent Ad Marketplace and Unified Ad Marketplace products, helping publishers integrate successfully, 
+        and building new features to help increase the value of these products.</p>
       </div>
     );
   }
