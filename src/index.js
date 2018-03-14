@@ -6,6 +6,7 @@ import Navbar from './Nav';
 import registerServiceWorker from './registerServiceWorker';
 import Favicon from 'react-favicon';
 import {AppContainer} from 'react-hot-loader';
+import {Provider} from "react-redux";
 
 
 
