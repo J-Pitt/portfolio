@@ -7,7 +7,7 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src='https://media.licdn.com/dms/image/C4E03AQF1k9tMSdqqCA/profile-displayphoto-shrink_200_200/0?e=1525996800&v=alpha&t=Juh-gYyFnLflm4JrzUo4LcScoE6R49uQQfm86RSp_fY' className="App-logo" alt="logo" />
+          <img src='https://media.licdn.com/dms/image/C4E03AQF1k9tMSdqqCA/profile-displayphoto-shrink_200_200/0?e=1540425600&v=beta&t=_1uwp8skHCIJDvbg-YJBNpuLRTkS2V-B7E0fOyy-qxQ' className="App-logo" alt="logo" />
           <h1 className="App-title">Welcome to my Portfolio Site!!</h1>
         </header>
         <p className="App-intro">
